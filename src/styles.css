@@ -97,6 +97,7 @@ section{
 
     .intro{
       font-size: 3.5rem;
+      color: red;
     }
     .about-left{
       text-align: center;
