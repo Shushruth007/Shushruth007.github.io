@@ -6,11 +6,21 @@ html, body {
 body{
   text-align: center;
   font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 section{
   padding: 5% 15%;
+}
+
+.section-head{
+  font-family: 'Rajdhani', sans-serif;
+  text-align: left;
+  font-size: 3rem;
+}
+
+a{
+  text-decoration: none;
 }
 
 /* Navbar */
@@ -24,6 +34,7 @@ section{
   position: sticky;
   top: 0;
   box-shadow: 2px 2px 2px;
+  z-index: 5;
 }
 
 .nav-item{
@@ -98,11 +109,50 @@ section{
 .about-btn-parent{
   padding: 3% 0;
 }
-.about-head{
-  font-family: 'Rajdhani', sans-serif;
+
+/* Projects */
+#projects{
+  background-color: #3F4E4F;
+  color: #DCD7C9;
+}
+
+.project{
+  font-family: 'Montserrat', sans-serif;
+  padding: 5% 3%;
+  color: black;
+  margin: 5% 0;
+}
+
+.project-head{
+  padding: 5% 0;
+}
+
+.card-title{
+  color:#2C3639;
+  font-weight: 600;
+}
+
+.project-icon{
+  color:#2C3639;
+  margin: 10px 0 30px;
+}
+
+
+/* Footer */
+#footer{
+  background-color: #DCD7C9;
+  padding: 5px 0;
+  margin: 0;
+}
+
+#footer p{
+  margin:0;
 }
 
 @media (max-width:990px){
+    .section-head{
+      text-align: center;
+    }
     .intro-left{
         text-align: center;
     }
