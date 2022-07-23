@@ -27,7 +27,7 @@ section{
 }
 
 .navbar-brand{
-  font-family: 'Laila', sans-serif;
+  font-family: 'Rajdhani', sans-serif;
 }
 
 .svk{
@@ -48,8 +48,8 @@ section{
 }
 
 .intro{
-  font-family: 'Laila', sans-serif;
-  font-size: 4rem;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 5rem;
   line-height: 1.5;
 }
 
@@ -65,7 +65,7 @@ section{
 }
 
 .epithet{
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 500;
   font-style: italic;
   color: #F0A324;
@@ -92,20 +92,12 @@ section{
   padding: 3% 0;
 }
 .about-head{
-  font-family: 'Laila', sans-serif;
+  font-family: 'Rajdhani', sans-serif;
 }
 
 @media (max-width:990px){
     .intro-left{
         text-align: center;
-    }
-
-    .intro{
-      font-size: 3.5rem;
-    }
-
-    .epithet{
-      font-size: 1.5rem;
     }
     .about-left{
       text-align: center;
