@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SVK</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="src/styles.css" type="text/css">
+
+<script src="https://kit.fontawesome.com/efcb8a83d4.js" crossorigin="anonymous"></script>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Laila:wght@600&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- NavBar -->
+
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#"><span class="svk">S.V.K</span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#footer">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#pricing">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#cta">Download</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <section id="header">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 intro-left">
+                    <h1 class="intro">Hi, I'm </h1>
+                    <h1 class="intro intro-trans txet edaf">Shushruth</h1>
+                    <h2 class="epithet">|| Problem Solver ||</h2>
+                    <h2 class="epithet">|| Critcal Thinker ||</h2>
+                    <h2 class="epithet">|| Coder ||</h2>
+                </div>
+                <div class="col-lg-6">
+                    <img class="intro-pic" src="assets\linkedIn_pic.jpg" alt="linked-in-pic">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 about-left">
+                    <h2 class="about-head">About Me</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat.
+                    </p>
+                </div>
+                <div class="col-lg-6 about-right">
+                  <div class="about-btn-parent">
+                    <a href="#">
+                    <button type="button" class="btn btn-outline-dark btn-lg dwnld"><i class="fa-solid fa-file fa-xl"></i>   Resume</button>
+                    </a>
+                  </div>
+                  <div class="about-btn-parent">
+                    <a href="#" >
+                    <button type="button" class="btn btn-outline-dark btn-lg dwnld"><i class="fa-brands fa-linkedin-in fa-xl"></i>   LinkedIn</button>
+                    </a>
+                  </div>
+                  <div class="about-btn-parent">
+                    <a href="#" >
+                    <button type="button" class="btn btn-outline-dark btn-lg dwnld"><i class="fa-brands fa-github fa-xl"></i>   GitHub</button>
+                    </a>
+                  </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Projects -->
+
+    <!-- Skills -->
+
+    <!-- Footer -->
+
+
+
+
+    <!-- Toggle Text -->
+    <script type="module">
+      const $text1 = document.querySelector(".intro-trans");
+      console.log($text1.textContent);
+      /*
+       * Method 2: Using event listener for triggering transition change (CSS Centric)
+       */
+
+      function toggleTransitionWithoutTimeout() {
+        // removing any previous listener and
+        // adding an click event listerner on button to
+        // trigger toggleTransition method
+        $text1.removeEventListener("transitionend", onTransitionEnd);
+        $text1.addEventListener("transitionend", onTransitionEnd);
+
+        // removing the class for leave state
+        $text1.classList.remove("edaf");
+      }
+      function onTransitionEnd() {
+        // removing the listener again so that it is triggered only once
+        $text1.removeEventListener("transitionend", onTransitionEnd);
+
+        // Finding the content and adding class again
+        const content = $text1.textContent === "Shushruth" ? "शुश्रुत" : "Shushruth";
+        $text1.innerHTML = content;
+        $text1.classList.add("edaf");
+      }
+
+      $text1.addEventListener("click", toggleTransitionWithoutTimeout);
+
+
+
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+
+</html>

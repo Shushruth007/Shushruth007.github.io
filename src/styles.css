@@ -1,0 +1,101 @@
+body{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+section{
+  padding: 5% 15%;
+}
+
+/* Navbar */
+.navbar{
+  padding: 0 15% 0;
+  background-color: #A27B5C;
+  position: sticky;
+  top: 0;
+  box-shadow: 2px 2px 2px;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.navbar-brand{
+  font-family: 'Laila', sans-serif;
+}
+
+.svk{
+  color:#DCD7C9;
+}
+
+
+/* Intro */
+
+#header{
+  background-color: #2C3639;
+  color: #fff;
+}
+
+.intro-left{
+  text-align: left;
+  padding: 5% 0;
+}
+
+.intro{
+  font-family: 'Laila', sans-serif;
+  font-size: 4.5rem;
+  line-height: 1.5;
+}
+
+
+.txet{
+  opacity: 0;
+  transition: opacity 225ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.edaf{
+  opacity: 1;
+ transition: opacity 300ms cubic-bezier(0.55, 0.085, 0.68, 0.53);
+}
+
+.epithet{
+  font-size: 2rem;
+  font-weight: 500;
+  font-style: italic;
+  color: #F0A324;
+  margin: 20px 0;
+}
+
+.intro-pic{
+  border-radius: 100%;
+  width: 100%;
+  margin: 5% 0;
+}
+
+/* About */
+.about-left{
+  text-align: left;
+  padding: 5% 0;
+}
+
+.about-right{
+  padding: 5% 0;
+}
+
+.about-btn-parent{
+  padding: 3% 0;
+}
+.about-head{
+  font-family: 'Laila', sans-serif;
+}
+
+@media (max-width:990px){
+    .intro-left{
+        text-align: center;
+    }
+
+    .about-left{
+      text-align: center;
+    }
+}
