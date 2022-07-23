@@ -14,6 +14,10 @@ section{
 }
 
 /* Navbar */
+.logo{
+  width: 20%;
+}
+
 .navbar{
   padding: 0 15% 0;
   background-color: #A27B5C;
@@ -32,6 +36,7 @@ section{
 
 .svk{
   color:#DCD7C9;
+  font-size: 30px;
 }
 
 
