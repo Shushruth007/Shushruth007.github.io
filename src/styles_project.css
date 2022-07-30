@@ -17,7 +17,14 @@ video, iframe {
     height: 300px;
     margin: 5% 0%;
 }
+a{
+  text-decoration: none;
+  color:inherit;
+}
+a:hover{
+  color:#F0A324;
 
+}
 /* Navbar */
 .logo{
   width: 20%;
@@ -101,6 +108,7 @@ video, iframe {
     .header{
       text-align: center;
       box-shadow: 2px 2px #888888;
+      padding: 2% 5%
     }
     .media-container{
       text-align: center;
