@@ -218,7 +218,6 @@ a:hover{
 }
 
 .skill:hover {
-  background-color: #2C3639;
   color: #F0A324;
   -webkit-transform: scale(1.1);
         -ms-transform: scale(1.1);
