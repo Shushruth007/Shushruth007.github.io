@@ -150,8 +150,14 @@ a:hover{
   color: black;
   margin: 5% 0;
   line-height: 2;
+  transition: background-color 200ms, color 200ms, transform 200ms, -webkit-transform 200ms, -ms-transform 200ms;
 }
 
+.project:hover{
+  -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        transform: scale(1.05);
+}
 .project h5{
   transition: color 200ms;
 }
