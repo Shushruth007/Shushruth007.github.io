@@ -13,8 +13,8 @@ body{
 }
 
 video, iframe {
-    width:  600px;
-    height: 440px;
+    width:  500px;
+    height: 300px;
     margin: 5% 0%;
 }
 
@@ -48,14 +48,13 @@ video, iframe {
 
 /* Header */
 .header{
-  background-color: #2C3639;
-  color: #fff;
+
   /* position: absolute;
   top:0;
   bottom: 0; */
-  padding: 2% 10% 2% 15%;
+  padding: 2% 5% 2% 15%;
   text-align: left;
-  box-shadow: 2px 2px #888888;
+  box-shadow: 2px 0px #888888;
   z-index: 2;
   line-height: 2;
 }
@@ -64,16 +63,18 @@ video, iframe {
   font-family: 'Rajdhani', sans-serif;
   font-size: 3rem;
   margin: 50px auto 10px;
-  color: #F0A324
+  color: black;
 }
 
 .media-container{
-  text-align: center;
+  text-align: left;
 }
 
 /* Sider */
 
 .sider{
+  background-color: #2C3639;
+  color: #fff;
   padding: 10% 10% 0;
 }
 
@@ -86,9 +87,22 @@ video, iframe {
   margin-top: 100px;
 }
 
+/* Footer */
+#footer{
+  background-color: #DCD7C9;
+  padding: 5px 0;
+  margin: 0;
+}
 
+#footer p{
+  margin:0;
+}
 @media (max-width:990px){
     .header{
+      text-align: center;
+      box-shadow: 2px 2px #888888;
+    }
+    .media-container{
       text-align: center;
     }
   .about-btn-parent{
