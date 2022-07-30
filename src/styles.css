@@ -243,11 +243,10 @@ a:hover{
         text-align: center;
     }
 
-    .old{
-      position: absolute;
-      right: 20%;
-      left: 20%;
+    .intro{
+      text-align: left;
     }
+
 
     .about-left{
       text-align: center;
