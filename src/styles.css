@@ -11,6 +11,7 @@ body{
 
 section{
   padding: 5% 15%;
+  box-shadow: 2px 2px 2px;
 }
 
 .section-head{
@@ -121,6 +122,9 @@ a:hover{
 }
 
 /* About */
+#about{
+  background-color: #fff;
+}
 .about-left{
   text-align: left;
   padding: 5% 0;
@@ -188,6 +192,7 @@ a:hover{
 /* Skills */
 #skills{
   text-align: left;
+  background-color: #fff;
 }
 
 .skill-list{
@@ -237,6 +242,13 @@ a:hover{
     .intro-left{
         text-align: center;
     }
+
+    .old{
+      position: absolute;
+      right: 20%;
+      left: 20%;
+    }
+
     .about-left{
       text-align: center;
     }
