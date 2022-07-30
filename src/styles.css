@@ -54,8 +54,12 @@ a:hover{
 .svk{
   color:#DCD7C9;
   font-size: 30px;
+  transition: color 200ms;
 }
 
+.svk:hover{
+  color: #D6B365;
+}
 
 /* Intro */
 
@@ -193,7 +197,10 @@ a:hover{
   padding-left: 20px;
   padding-bottom: 20px;
 }
-
+.skills-sub{
+  font-weight: 500;
+  color:#F0A324
+}
 .skill{
   font-style: italic;
   margin: 5px 10px 5px 0;
