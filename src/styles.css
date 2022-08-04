@@ -155,6 +155,10 @@ a:hover{
   margin: 0 0;
 }
 
+.dwnld:hover{
+  color: #F0A324;
+}
+
 
 /* Projects */
 #projects{
@@ -273,6 +277,9 @@ a:hover{
       text-align: left;
     }
 
+    #skills{
+      text-align: center;
+    }
 
     .about-left{
       text-align: center;
