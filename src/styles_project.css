@@ -107,17 +107,35 @@ a:hover{
 .sider{
   background-color: #2C3639;
   color: #fff;
-  padding: 10% 10% 0;
+  padding: 5% 10% 0;
+}
+
+.project-icon{
+  margin: 0 0 20px;
+}
+.icon-one{
+  color:#2698FF;
+}
+
+.icon-two{
+  color:#FFB640;
+}
+
+.icon-three{
+  color:#80FF59;
 }
 
 .about-btn-parent{
-  padding: 5% 0 5%;
-  position: fixed;
+  padding: 10% 0;
+  position: relative;
 }
 
-.github{
-  margin-top: 100px;
+.sider-child{
+  position: absolute;
 }
+/* .github{
+  margin-top: 100px;
+} */
 
 /* Footer */
 #footer{
@@ -140,7 +158,11 @@ a:hover{
     }
   .about-btn-parent{
     position: relative;
-    padding: 2% 0 5%;
+    padding: 5% 0 5%;
+  }
+
+  .sider-child{
+    position: relative;
   }
   .skill-list{
     justify-content: center;

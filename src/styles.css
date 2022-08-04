@@ -281,6 +281,10 @@ a:hover{
       text-align: center;
     }
 
+    .skill-list{
+      justify-content: center;
+    }
+
     .about-left{
       text-align: center;
     }
