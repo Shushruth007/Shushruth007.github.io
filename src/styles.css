@@ -128,16 +128,33 @@ a:hover{
 }
 .about-left{
   text-align: left;
-  padding: 5% 0;
+  padding: 1% 0;
 }
 
 .about-right{
-  padding: 5% 0;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
 }
 
 .about-btn-parent{
   padding: 3% 0;
 }
+
+.about-me{
+  font-weight: 500;
+  line-height: 1.7;
+}
+
+#about h5{
+  color: #F0A324;
+}
+
+#about .row{
+  margin: 0 0;
+}
+
 
 /* Projects */
 #projects{
@@ -195,7 +212,10 @@ a:hover{
   color:#80FF59;
 }
 
-
+.note{
+  text-align: right;
+  margin: 20px 0;
+}
 /* Skills */
 #skills{
   text-align: left;
