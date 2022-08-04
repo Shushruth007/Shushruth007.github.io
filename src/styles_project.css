@@ -25,6 +25,10 @@ a:hover{
   color:#F0A324;
 
 }
+
+p, li{
+  font-weight: 500;
+}
 /* Navbar */
 .logo{
   width: 20%;
@@ -111,7 +115,7 @@ a:hover{
 }
 
 .project-icon{
-  margin: 0 0 20px;
+  margin: 0 0 30px;
 }
 .icon-one{
   color:#2698FF;
