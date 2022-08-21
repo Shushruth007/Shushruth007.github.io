@@ -18,6 +18,7 @@ section{
   font-family: 'Rajdhani', sans-serif;
   text-align: left;
   font-size: 3rem;
+  padding: 0 0;
 }
 
 a{
@@ -135,11 +136,10 @@ a:hover{
   display: flex;
   flex-direction: column;
   align-content: center;
-  justify-content: center;
 }
 
 .about-btn-parent{
-  padding: 3% 0;
+  padding: 5% 0;
 }
 
 .about-me{
