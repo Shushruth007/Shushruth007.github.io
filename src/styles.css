@@ -241,15 +241,17 @@ a:hover{
   font-style: italic;
   margin: 5px 10px 5px 0;
   padding: 2px 5px;
-  border-bottom: 1px solid;
+  border: 1px solid;
   border-radius: 5px;
-  transition: background-color 200ms, color 200ms, transform 200ms, -webkit-transform 200ms, -ms-transform 200ms;
-  background-color: #2C3639;
-  color: #fff;
+  transition: background-color 200ms, color 200ms, border-style 200ms, transform 200ms, -webkit-transform 200ms, -ms-transform 200ms;
+  background-color: #fff;
+  color: #2C3639;
 }
 
 .skill:hover {
   color: #F0A324;
+  border-style: none none solid none;
+  background-color: #2C3639;
   -webkit-transform: scale(1.1);
         -ms-transform: scale(1.1);
         transform: scale(1.1);
